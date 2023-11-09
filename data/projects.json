@@ -1,0 +1,76 @@
+{
+    "projects": [
+        {
+            "keyword": "pilarruiz",
+            "title": "Always Open",
+            "year": "2022",
+            "cover": "ALWAYSOPEN.gif",
+            "author": "Pilar Ruiz Builnes",
+            "pdf":"ALWAYS OPEN_PILAR RUIZ BULNES.pdf"
+        },
+        {
+            "keyword": "sabastianvela",
+            "title": "Los espacios soporte de Lina Bo Bardi",
+            "year": "2022",
+            "cover": "SEBASTIAN VELA_GIF_MASP.gif",
+            "author": "Sebastian Vela",
+            "pdf":"Sebastian Vela_Lina Bo Bardi.pdf"
+        }, 
+        {
+            "keyword": "lisamartinez",
+            "title": "Testing the Tenants of High-Tech",
+            "year": "2022",
+            "cover": "230220-Herman-Miller-to-Bath-School-of-Art-GIF.gif",
+            "author": "Lisa Martinez",
+            "pdf":"230220 Herman Miller to Bath School of Art and Design_Final Presentation.pdf"
+        },
+        {
+            "keyword": "andymolina",
+            "title": "Lo existente como soporte",
+            "year": "2022",
+            "cover": "GIF-CASA-LIDIA.gif",
+            "author": "Andy Molina",
+            "pdf":"MOLINA_Andy_Lo Existente como Soporte.pdf"
+        },
+        {
+            "keyword": "lucascerda",
+            "title": "Cubierta como nuevo vínculo con lo publico",
+            "year": "2022",
+            "cover": "CERDA, Lucas Gif general.gif",
+            "author": "Lucas Cerda",
+            "pdf":"CERDA, Lucas Entrega Final Open Systemas.pdf"
+        },
+        {
+            "keyword": "cristinaiaonnou",
+            "title": "Reutilization in public space",
+            "year": "2022",
+            "cover": "Ioannou-Christina.gif",
+            "author": "Cristina Iaonnou",
+            "pdf":"Ioannou Christina.pdf"
+        },
+        {
+            "keyword": "sebastianrojas",
+            "title": "Vivienda de emergencia",
+            "year": "2022",
+            "cover": "esquemas.gif",
+            "author": "Sebastian Rojas Parada",
+            "pdf":"SEBASTIAN_ROJAS_VIVIENDA DE EMERGENCIA.pdf"
+        },
+        {
+            "keyword": "fernandarivero",
+            "title": "De espacios indeterminados a espacios determinados",
+            "year": "2022",
+            "cover": "OPEN SYSTEMS_GIF.gif",
+            "author": "Maria Fernanda Rivero Romano",
+            "pdf":"FERNANDA RIVERO_Opensystems.pdf"
+        },{
+            "keyword": "alejandrocaraballo",
+            "title": "La ruina como dispositivo proyectual abierto",
+            "year": "2022",
+            "cover": "gif2.gif",
+            "author": "Alejandro Caraballo",
+            "pdf":"Alejandro Caraballo_La ruina como dispositivo proyectual abierto.pdf"
+        }
+       
+    ]
+}

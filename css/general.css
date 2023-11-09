@@ -1,0 +1,376 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: var(--light);
+
+    transition: all 0.2s ease-in-out;
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: auto;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: var(--dark);
+}
+
+body {
+    /* max-width: 1030px;*/
+    
+}
+
+main {
+    position: relative;
+}
+
+/* GENERAL - COLORS */
+:root {
+    /* --primary: #FF5F34;*/
+    --primary: #e6e6e6;
+    --abcent: hsl(0, 0%, 100%);
+    --dark: #ffffff;
+    --light: #252525;
+    --secondary: #FFF103;
+    --tertiary: #8390FA;
+    --other: #5BDD94;
+
+    --primary-op: #ff603420;
+    --secondary-op: #FFB70420;
+    --tertiary-op: #8391fa20;
+    --light-op: #ffffff20;
+    --dark-op: #010010b0;
+}
+
+.text-primary {color: var(--light)}
+.text-secondary {color: var(--secondary)}
+.text-tertiary {color: var(--tertiary)}
+.text-other {color: var(--other)}
+.text-light {color: var(--light)}
+.text-dark {color: var(--dark)}
+.text-abcent {color: var(--abcent)}
+
+.bg-primary {background-color: var(--primary)}
+.bg-secondary {background-color: var(--secondary)}
+.bg-tertiary {background-color: var(--tertiary)}
+.bg-other {background-color: var(--other)}
+.bg-light {background-color: var(--light)}
+.bg-dark {background-color: var(--dark)}
+.bg-abcent {background-color: var(--abcent)}
+
+/* GENERAL - TEXT */
+
+h1 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 100px;
+    line-height: 105px;
+}
+
+h2 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 45px;
+}
+
+h3 {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 42px;
+}
+
+h4 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+h5 { /* SUB HEADER PROJECTS, ABOUT */
+    font-family: 'Roboto Condensed', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 30px;
+}
+
+h6 { /* MAIN NAME HEADER */
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight:900;
+    font-size: 30px;
+    line-height: 32px;
+}
+
+h7 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+h8 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 7px;
+    line-height: 35px;
+}
+
+
+p {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.text-center {text-align: center;}
+.text-uppercase {text-transform: capitalize;}
+strong {font-weight: bold;}
+
+@media only screen and (max-width: 400px) {
+    h1 {
+        font-size: 80px;
+        line-height: 85px;
+    }
+    
+    h3 {
+        font-size: 25px;
+        line-height: 40px;
+    }
+}
+
+/* LINKS */
+
+a {
+    text-decoration-line: none;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+a:hover > *{
+    color: var(--abcent);
+}
+
+.link {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 26px;
+    text-decoration-line: underline;
+}
+
+.link:hover {
+    text-decoration-line: none;
+    color: var(--abcent);
+}
+
+.button {
+    padding: 5px 25px;
+    border: 2px solid var(--light);
+
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+
+    text-transform: uppercase;
+}
+
+.button:hover {
+    border: 2px solid var(--abcent);
+    color: var(--abcent);
+    cursor: pointer;
+}
+
+.button:hover i{
+    color: var(--abcent);
+}
+
+.button-complete {
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* CONTAINERS */
+main {
+    margin:auto;
+    max-width: 1100px;
+}
+
+
+/* HEADER */
+header {
+    width: 100%;
+    position: sticky;
+    
+    top: 0;
+    /*background: var(--dark);*/
+    z-index: 10;
+}
+
+.main-name{
+    /*margin-top: 20px;*/
+    align-self: center;
+    text-align: center;
+    padding: 15px 0 15px 0px;
+    /*background: var(--dark);*/
+    /*border-bottom: 2px solid var(--light);*/
+}
+
+header nav {
+    
+    
+    
+    /*border-bottom: 2px solid var(--light);*/
+}
+
+header #menu-nav {
+    display: flex;
+    justify-content:center;
+    width: 100%;
+    background: var(--secondary);
+  
+}
+
+header #menu-nav a{
+   text-align: center;
+    width: 200px;
+    padding: 3px;
+}
+
+header #menu-nav a:hover{
+   
+ }
+
+
+/* Burger menu */
+#menu-burger {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    border-radius: 4px;
+    z-index: 10;
+
+    display: none;
+}
+
+/* Menu burger animation */
+#menu-burger span,
+#menu-burger span::before,
+#menu-burger span::after {
+  position: absolute;
+  top: 20px;
+  right: 15px;
+
+  width: 25px;
+  height: 2px;
+
+  background-color: var(--light);
+  border-radius: 5px;
+
+  transition-duration: 0.25s;
+
+  z-index: 100;
+}
+
+#menu-burger span::before {
+  content: "";
+  top: -8px;
+  right: 0px;
+}
+
+#menu-burger span::after {
+  content: "";
+  top: 8px;
+  right: 0px;
+}
+
+#menu-burger.clicked span {
+    transform: rotate(45deg);
+}
+
+#menu-burger.clicked span::before {
+    top: 0;
+    transform: rotate(0);
+}
+
+#menu-burger.clicked span::after {
+    top: 0;
+    transform: rotate(90deg);
+}
+    
+#menu-burger:hover {
+    cursor: pointer;
+}
+
+#menu-nav.show {
+    opacity: 1;
+    visibility: visible;
+    right: 0;
+}
+
+/* Menu responsive */
+@media only screen and (max-width: 810px) {
+    #menu-burger {
+        display: unset;
+    }
+
+    header #menu-nav {
+        display: unset;
+        position: fixed;
+        top: 0;
+        right: -60%;
+        z-index: 1;
+        width: 60%;
+        height: 100%;
+        background-color: var(--dark);
+        padding: 50px;
+        padding-top: 50px;
+        text-align: center;
+        padding-top: 100px;
+        border-left: 2px solid var(--primary);
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    header #menu-nav {
+        right: -100%;
+        width: 100%;
+    }
+}
+
+/* FOOTER */
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px;
+    border-top: 2px solid var(--light);
+    margin-top: 15px;
+}
+
+footer div i {
+    margin: 10px;
+}
