@@ -70,7 +70,7 @@ function projectInfo(json) {
     
 
     if (window.AdobeDC) {
-      var adobeDCView = new AdobeDC.View({clientId: "fd9316924f5b481ba4bc32f7c19e4b8e", divId: "adobe-dc-view"});
+      var adobeDCView = new AdobeDC.View({clientId: "217976d1c459413cb16817cf50045202", divId: "adobe-dc-view"});
       adobeDCView.previewFile(
         {
             content:  {location: { url: "pdfs/" + json["projects"][pv]["pdf"]}},
@@ -80,7 +80,7 @@ function projectInfo(json) {
     } else {
       /* Wait for Adobe Document Services PDF Embed API to be ready */
       document.addEventListener("adobe_dc_view_sdk.ready", () => {
-        var adobeDCView = new AdobeDC.View({clientId: "fd9316924f5b481ba4bc32f7c19e4b8e", divId: "adobe-dc-view"});
+        var adobeDCView = new AdobeDC.View({clientId: "217976d1c459413cb16817cf50045202", divId: "adobe-dc-view"});
         adobeDCView.previewFile(
           {
               content:  {location: { url: "pdfs/" + json["projects"][pv]["pdf"]}},
