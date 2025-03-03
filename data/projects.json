@@ -1,11 +1,94 @@
 {
     "projects": [
         {
+            "keyword": "jorgeangulo",
+            "title": "Tradición Flexible",
+            "year": "2024",
+            "cover": "2024/GIF FLEXIBILIDAD VERNACULA_JAAMFF.gif",
+            "author": "Jorge Angulo Macris",
+            "pdf":"2024/TRADICIÓN FLEXIBLE_JAAM_12FEB24.pdf"
+        },
+        {
+            "keyword": "paulalorenzo",
+            "title": "100 de marcos específicos",
+            "year": "2024",
+            "cover": "2024/PaulaLorenzoDiaz-Meco_OS23.gif",
+            "author": "Paula Lorenzo Díaz-Meco",
+            "pdf":"2024/Paula Lorenzo Diaz-Meco_OS23.pdf"
+        },
+        {
+            "keyword": "lucianointile",
+            "title": "El Patio, la Plaza y el Jardín",
+            "year": "2024",
+            "cover": "2024/El Patio, la Plaza y el Jardín - Luciano Intile - 12.02.24.gif",
+            "author": "Luciano INTILE",
+            "pdf":"2024/El Patio, la Plaza y el Jardín - Luciano Intile - 14.02.24.pdf"
+        },
+        {
+            "keyword": "emmanuelsegueri",
+            "title": "Pencil Towers",
+            "year": "2024",
+            "cover": "2024/PENCIL TOWERS GIFF.gif",
+            "author": "Enmanuel Segueri Delgado",
+            "pdf":"2024/Segueri Enmanuel_Open Sistems_PENCIL TOWERS.pdf"
+        },
+        {
+            "keyword": "paulasaenz",
+            "title": "Piezas Dispersas",
+            "year": "2024",
+            "cover": "2024/GIF PIEZAS DISPERSAS.gif",
+            "author": "Maria Paula Saenz Becerra",
+            "pdf":"2024/MARIA PAULA SAENZ-PIEZAS DISPERSAS.pdf"
+        },
+        {
+            "keyword": "rtomasbravo",
+            "title": "El Fuelle",
+            "year": "2024",
+            "cover": "2024/FUELLE - R Tomas Bravo Nieto.gif",
+            "author": "R.Tomas Bravo Nieto",
+            "pdf":"2024/FUELLE - R Tomas Bravo Nieto - Fin.pdf"
+        },
+        
+        {
+            "keyword": "miguelmurguia",
+            "title": "Muro equipado móvil",
+            "year": "2024",
+            "cover": "2024/Murguia-Miguel---Gif-muro-movil-equipado.gif",
+            "author": "Murguia Miguel",
+            "pdf":"2024/Murguia Miguel - Muro equipado móvil.pdf"
+        },
+        
+        {
+            "keyword": "ivanflores",
+            "title": "La ventana hipercapaz",
+            "year": "2024",
+            "cover": "2024/Flores,Iván_La ventana hipercapaz.gif",
+            "author": "Iván Flores Barragán",
+            "pdf":"2024/Flores, Iván_La ventana hipercapaz.pdf"
+        },
+        {
+            "keyword": "ezequielestepo",
+            "title": "Umbral",
+            "year": "2024",
+            "cover": "2024/GIF_Estepo, Ezequiel (el de la pagina esta en proceso).gif",
+            "author": "Ezequiel Estepo",
+            "pdf":"2024/OEstepo, Ezequiel_Umbral_OpenSystems_Entrega Final.pdf"
+        },
+        {
+            "keyword": "lautarogiuggia",
+            "title": "Célula habitable en espacios colectivos",
+            "year": "2024",
+            "cover": "2024/OS_GIF.gif",
+            "author": "Cristina Asla Ortiz de Latierro - Lautaro Giuggia Monteverde",
+            "pdf":"2024/Open Systems_Presentación final_Asla, Cristina y Giuggia, Lautaro.pdf"
+        },
+        
+        {
             "keyword": "pilarruiz",
             "title": "Always Open",
             "year": "2022",
             "cover": "ALWAYSOPEN.gif",
-            "author": "Pilar Ruiz Bulnes",
+            "author": "Pilar Ruiz Builnes",
             "pdf":"ALWAYS OPEN_PILAR RUIZ BULNES.pdf"
         },
         {
