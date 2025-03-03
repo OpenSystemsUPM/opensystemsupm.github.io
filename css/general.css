@@ -32,7 +32,7 @@ main {
     --abcent: hsl(0, 0%, 100%);
     --dark: #ffffff;
     --light: #252525;
-    --secondary: rgb(255, 255, 0);
+    --secondary: rgb(255, 241, 3);;
     --tertiary: #8390FA;
     --other: #5BDD94;
 
